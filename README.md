@@ -1,6 +1,7 @@
 voiture
 =======
 1)  Créer une classe package Car :
+--------------------
 attributs : 
 private String name : le nom de la voiture
 private int year : l’année de construction
@@ -27,6 +28,7 @@ Modifier la classe Car, passer la méthode describe en visibilité private
 repasser la méthode describe en visibilité public
 
 2) Créer une classe public SportsCar, qui hérite de Car
+--------------------
 	attributs :
 private int nbCylinders : nombre de cylindres
 	
@@ -44,6 +46,7 @@ System.out.println(sportsCar.describe());
 
 Que se passe-t-il?
 3) Modifications la classe Car 
+--------------------
 	- créer un package com.serli.vehicules
 	- déplacer la classe Car dans com.serli.vehicules
 	Que se passe-t-il?
@@ -55,6 +58,7 @@ Que se passe-t-il?
 	Que se passe-t-il?
 	Quelles sont les modifications envisagées?
 4) Polymorphisme
+--------------------
 	Remplacer le constructeur par défaut de SportsCar par un constructeur par attributs (name, year, nbCylinders)
 
 	Tester la classe SportsCar à l’aide d’un main : 
@@ -65,6 +69,7 @@ Que se passe-t-il?
 Quel est le type de la variable  “car”?
 Que se passe-t-il si on appelle car.getNbCylinders()?
 5) Classe abstraite : Vehicule
+--------------------
 	Créer un classe abstraite Vehicule.
 	Faire hériter la classe Car de Vehicule.
 	Remonter l’attribut state dans la classe Vehicule.
@@ -72,6 +77,7 @@ Que se passe-t-il si on appelle car.getNbCylinders()?
 Déclarer les méthodes describe et start vues précédemment en tant que méthodes abstraites.
 Créer un constructeur par défaut qui affiche “Vehicule”
 6) Enumération
+--------------------
 	Créer une énumération Propulsion qui contient les valeurs : SAIL, ENGINE
 	Créer une classe Boat qui hérite de Vehicule
 	
@@ -88,6 +94,7 @@ Créer un constructeur par défaut qui affiche “Vehicule”
 Que se passe-t-il?
 	
 7) Créer une interface CanPrintDescription
+--------------------
 méthode : 
 void printDescription();
 
@@ -103,6 +110,7 @@ Remplir ce tableau à l’aide de :1 Car, 1 SportsCar, 1 Boat, 1 Sandwich
 Afficher le contenu du tableau à l’aide d’une boucle en appelant la méthode printDescription()
 Quel est l’intérêt de ce mode de fonctionnement?
 8) Static
+--------------------
 - ajouter une variable public static int countInstances à la classe Vehicule, initialisée inline à 0;
 - surcharger le constructeur afin qu’il incrémente la variable à chaque appel
 
@@ -113,5 +121,6 @@ Car car3 = new SportsCar();
 System.out.println(sportsCar.countInstances);
 Que se passe-t-il?
 9) final
+--------------------
 	ajouter final à la définition de la méthode start de la classe Car
 	Que se passe-t-il?
