@@ -3,14 +3,14 @@ voiture
 1)  Créer une classe package Car :
 --------------------
 attributs : 
-private String name : le nom de la voiture
-private int year : l’année de construction
-private String state : l’état de la voiture
+private String name : le nom de la voiture.
+private int year : l’année de construction.
+private String state : l’état de la voiture.
 
 méthodes : 
-public void start() : démarre la voiture -> state = “driving”
-public void stop() : arrête la voiture -> state = “stopped”
-public String describe() : renvoie un descriptif de la voiture en fonction de touts ses attributs
+public void start() : démarre la voiture -> state = “driving”.
+public void stop() : arrête la voiture -> state = “stopped”.
+public String describe() : renvoie un descriptif de la voiture en fonction de touts ses attributs.
 
 	accesseurs :
 		générer des accesseurs public pour name et year, et protected pour state
