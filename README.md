@@ -47,11 +47,11 @@ System.out.println(sportsCar.describe());
 Que se passe-t-il?
 3) Modifications la classe Car 
 --------------------
-	- créer un package com.serli.vehicules
-	- déplacer la classe Car dans com.serli.vehicules
+	- créer un package com.formation.vehicules
+	- déplacer la classe Car dans com.formation.vehicules
 	Que se passe-t-il?
 	
-	- déplacer la classe SportsCar dans le package com.serli.vehicules
+	- déplacer la classe SportsCar dans le package com.formation.vehicules
 	- modifier la visibilité de la classe Car en public
 		
 	- modifier le constructeur de la classe Car, créer un constructeur par arguments (year, name)
